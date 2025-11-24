@@ -2,7 +2,7 @@
     # mod.hjson
     # these will be changed frequently - top
     "subtitle"      : "The Origin Awakens", # this should display the current update name
-    "version"       : "build 7",
+    "version"       : "build 8",
     # b1...b? : The Origin Awakens
 
 

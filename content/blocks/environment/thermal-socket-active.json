@@ -1,5 +1,6 @@
 {
     "name": "Thermal Socket (Active)",
     "size": 1,
-    "damageTaken": 1.0
+    "damageTaken": 1.0,
+    "variants": 0
 }
