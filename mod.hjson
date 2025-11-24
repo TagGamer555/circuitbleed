@@ -1,0 +1,19 @@
+{
+    # mod.hjson
+    # these will be changed frequently - top
+    "subtitle"      : "The Origin Awakens", # this should display the current update name
+    "version"       : "build 2",
+    # b1...b? : The Origin Awakens
+
+
+
+    # these won't be changed often - bottom
+    "name"          : "a8_cb",
+    "description"   : "Mod that adds various content.",
+    "author"        : "Alex888 / TagGamer555",
+    "displayName"   : "Circuitbleed",
+    "main"          : "a8_cb.a8_cb-Mod",
+
+    # major version 8
+    "minGameVersion": 147
+}

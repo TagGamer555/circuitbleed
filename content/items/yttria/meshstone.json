@@ -1,0 +1,12 @@
+{
+    "name"         : "Meshstone",
+    "desc"         : "Rock-like material that contains many other resources inside.",
+    "color"        : "9F8CA5",
+    "research"     : "none",
+    "cost"         : 0.75,
+    "hardness"     : 0.0,
+    "charge"       : 0.00,
+    "radioactivity": 0.05,
+    "flammability" : 0.00,
+    "explosiveness": 0.00
+}
