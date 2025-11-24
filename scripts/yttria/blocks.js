@@ -1,6 +1,6 @@
 {
     // yttria/blocks.js
 
-    require("blocks_environment");
-    require("blocks_power");
+    require("yttria/blocks_environment");
+    require("yttria/blocks_power");
 }
