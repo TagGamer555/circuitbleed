@@ -1,6 +1,6 @@
 {
     "name"         : "Meshstone",
-    "desc"         : "Rock-like material that contains many other resources inside.",
+    "description"  : "Rock-like material that contains many other resources inside.",
     "color"        : "9F8CA5",
     "research"     : "none",
     "cost"         : 0.75,
