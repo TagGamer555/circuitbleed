@@ -1,0 +1,12 @@
+{
+    "name"         : "Gluonium",
+    "description"  : "Shiny crystalline with high gluon capacity, making it an excellent binding agent.",
+    "color"        : "E1DAE5",
+    "research"     : "meshstone",
+    "cost"         : 1.20,
+    "hardness"     : 0.75,
+    "charge"       : 0.00,
+    "radioactivity": 0.00,
+    "flammability" : 0.00,
+    "explosiveness":-0.50
+}

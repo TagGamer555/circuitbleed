@@ -1,0 +1,65 @@
+{
+    "name": "Missile (Thought)",
+    "description": "Explodes. Does not affect enemy structures.",
+
+    "drawCell": false,
+
+    "outlineColor": "211E26",
+
+    "trailColor": "CCB7CC",
+    "trailLength": 5.0,
+
+    "engineColor": "CCB7CC",
+    "engineSize": 0.5,
+    "engineOffset": 0.5,
+
+    "speed": 2.0,
+    "rotateSpeed": 1.5,
+
+    "maxRange": 6.0,
+    "lifetime": 60.0,
+    "health": 40,
+    "armor": 10,
+
+    "lowAltitude": true,
+
+    "deathExplosionEffect": "none",
+
+    "weapons": [
+        {
+            "shootOnDeath": true,
+            "mirror": false,
+            "reload": 0.0,
+            "shootCone": 360.0,
+
+            "bullet": {
+                "type": "ExplosionBulletType",
+
+                "splashDamage": 35.0,
+                "splashDamageRadius": 20,
+                "buildingDamageMultiplier": 0.0,
+
+                "shootEffect": [
+                    {
+                        "type": "ExplosionEffect",
+
+                        "waveRad": 5,
+                        "waveLife": 15,
+                        "waveColor": "CCB7CC",
+
+                        "sparks": 6,
+                        "sparkRad": 6,
+                        "sparkStroke": 0.2,
+                        "sparkLen": 1.0,
+                        "sparkColor": "CCB7CC",
+
+                        "smokes": 3,
+                        "smokeSize": 2.0,
+                        "smokeRad": 4.0,
+                        "smokeColor": "484259"
+                    }
+                ]
+            }
+        }
+    ]
+}

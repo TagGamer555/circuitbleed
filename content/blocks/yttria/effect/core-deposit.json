@@ -1,0 +1,29 @@
+{
+    "name": "Core: Deposit",
+    "description": "Stores items and summons unit Thought to protect itself.",
+
+    "size": 2,
+    "storageCapacity": 1000,
+    "unitType": "thought",
+    "health": 2000,
+    "category": "effect",
+    
+    "isFirstTier": true,
+    "requiresCoreZone": false,
+    "squareSprite": false,
+
+    "requirements": [
+        "terrium/250",
+        "cragshard/250",
+        "chargonium/250",
+        "gluonium/125"
+    ],
+
+    "research": {
+        "planet": "serpulo",
+        "root": true,
+        "name": "[#BFDFFF]Yttria[]",
+        "requiresUnlock": false
+    },
+    "researchCostMultiplier": 1.0
+}

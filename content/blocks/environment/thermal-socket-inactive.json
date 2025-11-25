@@ -1,5 +1,7 @@
 {
     "name": "Thermal Socket (Inactive)",
-    "size": 1,
-    "variants": 0
+    "parent": "ancient-metal-floor",
+    "blendGroup": "ancient-metal-floor",
+    "variants": 0,
+    "effect": "none"
 }

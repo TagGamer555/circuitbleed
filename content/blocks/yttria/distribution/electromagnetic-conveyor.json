@@ -1,0 +1,19 @@
+{
+    "name": "Electromagnetic Conveyor",
+    "description": "Captures items in an electromagnetic field that moves them forward.",
+
+    "junctionReplacement": "junction",
+    "bridgeReplacement": "bridge-conveyor",
+
+    "speed": 0.03,
+    "displayedSpeed": 4.2,
+
+    "pushUnits": false,
+
+    "requirements": [
+        "terrium/1",
+        "chargonium/1"
+    ],
+    "research": "thermal-separator",
+    "researchCostMultiplier": 0.25
+}

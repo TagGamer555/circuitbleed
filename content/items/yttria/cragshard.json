@@ -1,0 +1,12 @@
+{
+    "name"         : "Cragshard",
+    "description"  : "Glassy mineral that attracts to itself.",
+    "color"        : "9D9590",
+    "research"     : "meshstone",
+    "cost"         : 1.0,
+    "hardness"     : 0.35,
+    "charge"       : 0.00,
+    "radioactivity": 0.00,
+    "flammability" : 0.00,
+    "explosiveness": 0.00
+}

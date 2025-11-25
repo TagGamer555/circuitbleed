@@ -1,0 +1,65 @@
+{
+    "name": "Missile (Lotus)",
+    "description": "Explodes.",
+
+    "drawCell": false,
+
+    "outlineColor": "1C1C26",
+
+    "trailColor": "E1DAE5",
+    "trailLength": 5.0,
+
+    "engineColor": "E1DAE5",
+    "engineSize": 0.5,
+    "engineOffset": 0.5,
+
+    "speed": 7,
+    "rotateSpeed": 1,
+
+    "maxRange": 6.0,
+    "lifetime": 20.0,
+    "health": 30,
+    "armor": 10,
+
+    "lowAltitude": true,
+
+    "deathExplosionEffect": "none",
+
+    "weapons": [
+        {
+            "shootOnDeath": true,
+            "mirror": false,
+            "reload": 0.0,
+            "shootCone": 360.0,
+
+            "bullet": {
+                "type": "ExplosionBulletType",
+
+                "splashDamage": 45.0,
+                "splashDamageRadius": 40,
+                "buildingDamageMultiplier": 0.75,
+
+                "shootEffect": [
+                    {
+                        "type": "ExplosionEffect",
+
+                        "waveRad": 20,
+                        "waveLife": 15,
+                        "waveColor": "E1DAE5",
+
+                        "sparks": 6,
+                        "sparkRad": 6,
+                        "sparkStroke": 0.2,
+                        "sparkLen": 1.0,
+                        "sparkColor": "E1DAE5",
+
+                        "smokes": 3,
+                        "smokeSize": 2.0,
+                        "smokeRad": 4.0,
+                        "smokeColor": "BEB7CC"
+                    }
+                ]
+            }
+        }
+    ]
+}

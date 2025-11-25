@@ -1,6 +1,8 @@
 {
     "name": "Thermal Socket (Active)",
-    "size": 1,
+    "parent": "ancient-metal-floor",
+    "blendGroup": "ancient-metal-floor",
+    "variants": 0,
     "damageTaken": 1.0,
-    "variants": 0
+    "effect": "none"
 }

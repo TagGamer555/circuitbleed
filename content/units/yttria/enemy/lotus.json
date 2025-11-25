@@ -1,0 +1,121 @@
+{
+    "name": "Lotus",
+    "description": "Fires three missiles at once.",
+
+    "outlineColor": "211E26",
+
+    "engineSize": 3.0,
+    "engineOffset": 6.5,
+
+    "drawBody": true,
+
+    "health": 350,
+    "armor": 10,
+
+    "speed": 1.2,
+    "rotateSpeed": 2.5,
+    "accel": 0.08,
+    "drag": 0.04,
+    "strafePenalty": 1.0,
+
+    "itemCapacity": 10,
+
+    "flying": true,
+    "lowAltitude": false,
+
+    "research": "thought",
+
+    "weapons": [
+        {
+            "name": "lotus-weapon",
+
+            "mirror": false,
+            "x": 0,
+            "y": 0,
+            "shootX": 0,
+            "shootY": 0,
+
+            "reload": 450.0,
+            "shootCone": 20.0,
+            "recoil": 0.0,
+            "shootSound": "missileLaunch",
+            "ejectEffect": "none",
+
+            "shoot": {
+                "type": "ShootSpread",
+                "shots": 3,
+                "spread": 20,
+                "firstShotDelay": 75
+            },
+
+            "parts": [
+                {
+                    "type": "RegionPart",
+                    "suffix": "-rail",
+                    "under": false,
+                    "outline": true,
+                    "mirror": true,
+                    "layerOffset": 0.00,
+                    "outlineLayerOffset": -0.02,
+                    "moves": [
+                        {
+                            "progress": "warmup",
+                            "x": 2.0,
+                            "y": -1.0,
+                            "rot": -22.5
+                        }
+                    ]
+                },
+                {
+                    "type": "RegionPart",
+                    "suffix": "-part",
+                    "under": true,
+                    "outline": false,
+                    "mirror": false,
+                    "layerOffset": -0.03,
+                    "outlineLayerOffset": -0.04,
+                    "progress": "recoil",
+                    "color": "FFFFFFFF",
+                    "colorTo": "FFFFFF00",
+                    "moves": [
+                        {
+                            "progress": "warmup",
+                            "y": 2.0
+                        }
+                    ]
+                },
+                {
+                    "type": "RegionPart",
+                    "suffix": "-part",
+                    "under": true,
+                    "outline": false,
+                    "mirror": true,
+                    "layerOffset": -0.05,
+                    "outlineLayerOffset": -0.06,
+                    "progress": "recoil",
+                    "color": "FFFFFFFF",
+                    "colorTo": "FFFFFF00",
+                    "moves": [
+                        {
+                            "progress": "warmup",
+                            "y": 1.0,
+                            "x": 2.0,
+                            "rot": -10.0
+                        }
+                    ]
+                }
+            ],
+
+            "bullet": {
+                "spawnUnit": "lotus-missile",
+
+                "shootEffect": "none",
+                "smokeEffect": "none",
+
+                "speed": 0.0,
+                "keepVelocity": false,
+                "inaccuracy": 0.0
+            }
+        }
+    ]
+}

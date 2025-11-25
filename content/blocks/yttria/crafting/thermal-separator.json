@@ -1,0 +1,68 @@
+{
+    "name": "Thermal Separator",
+    "description": "Place on Thermal Sockets to separate Meshstone into other resources via heat.",
+    "details": "The chaotic lattice of Meshstone allows easier separation.",
+    "category": "crafting",
+
+    "baseEfficiency": 0.0,
+    "minEfficiency": 0.99999,
+    "displayEfficiency": false,
+    "squareSprite": false,
+
+    "hasItems": true,
+    "hasLiquids": false,
+    "hasPower": false,
+
+    "emitLight": true,
+    "lightRadius": 2.5,
+    "lightColor": "FFEEDD1F",
+
+    "consumes": {
+        "items": [
+            "meshstone/8"
+        ]
+    },
+    "craftTime": 300.0,
+    "itemCapacity": 16,
+
+    "outputItems": [
+        "chargonium/2",
+        "cragshard/2",
+        "terrium/3",
+        "gluonium/1"
+    ],
+
+    "size": 3,
+    "requirements": [
+        "meshstone/30"
+    ],
+    "research": "core-deposit",
+    "researchCostMultiplier": 0.25,
+	
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+			{
+				"type": "DrawRegion",
+				"suffix": "-bottom"
+			},
+			{
+				"type": "DrawDefault"
+			},
+            {
+                "type": "DrawGlowRegion",
+                "color": "ff00003f"
+            },
+			{
+				"type": "DrawRegion",
+				"spinSprite": true,
+				"rotateSpeed": -3.0,
+				"suffix": "-rotator"
+			},
+			{
+				"type": "DrawRegion",
+				"suffix": "-top"
+			}
+		]
+	}
+}

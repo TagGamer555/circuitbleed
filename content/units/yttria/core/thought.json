@@ -1,0 +1,73 @@
+{
+    "name": "Thought",
+    "description": "Defends itself and the \"Core: Deposit\" from enemy attacks by building structures. Equipped with an anti-unit missile launcher.",
+
+    "outlineColor": "211E26",
+
+    "engineSize": 1.5,
+    "engineOffset": 4.0,
+
+    "drawBody": true,
+
+    "health": 100,
+    "armor": 0,
+
+    "speed": 1.5,
+    "rotateSpeed": 3,
+    "accel": 0.08,
+    "drag": 0.04,
+    "strafePenalty": 1.0,
+
+    "buildSpeed": 1.0,
+    "mineTier": 1,
+    "mineSpeed": 5.0,
+    "itemCapacity": 50,
+
+    "flying": true,
+    "lowAltitude": false,
+
+    "research": "core-deposit",
+
+    "weapons": [
+        {
+            "name": "thought-weapon",
+
+            "mirror": false,
+            "x": 0,
+            "y": 0,
+            "shootX": 0,
+            "shootY": 0,
+
+            "reload": 240.0,
+            "shootCone": 20.0,
+            "recoil": 0.0,
+            "shootSound": "missile",
+            "ejectEffect": "none",
+
+            "parts": [
+                {
+                    "type": "RegionPart",
+                    "suffix": "-part",
+                    "progress": "reload",
+                    "color": "FFFFFFFF",
+                    "colorTo": "FFFFFF00",
+                    "under": false,
+                    "outline": false,
+                    "mirror": false,
+                    "outlineLayerOffset": -0.01
+                }
+            ],
+
+            "bullet": {
+                "spawnUnit": "thought-missile",
+
+                "shootEffect": "none",
+                "smokeEffect": "none",
+
+                "speed": 0.0,
+                "keepVelocity": false,
+                "inaccuracy": 0.0
+            }
+        }
+    ]
+}

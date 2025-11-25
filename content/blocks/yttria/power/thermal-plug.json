@@ -2,10 +2,10 @@
     "name": "Thermal Plug",
     "description": "Plug into Thermal Sockets to extract heat and turn it into Power.",
     "details": "Thermal Sockets are ancient outlets that give direct access to the Yttria's underground heat networks.",
+    "category": "power",
 
-    "attribute": "thermal_socket",
-    "minEfficiency": 0.1,
-    "displayEfficiencyScale": 1.0,
+    "minEfficiency": 0.99999,
+    "displayEfficiency": false,
 
     "powerProduction": 0.1666666666667,
 
@@ -16,9 +16,11 @@
     "lightRadius": 5.0,
     "lightColor": "FFEEDD3F",
 
-    "size": 1,
+    "size": 3,
     "requirements": [
-        "copper/1"
+        "terrium/420",
+        "chargonium/69"
     ],
-    "research": "none"
+    "research": "core-deposit",
+    "researchCostMultiplier": 0.25
 }

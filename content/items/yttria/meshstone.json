@@ -4,7 +4,7 @@
     "color"        : "9F8CA5",
     "research"     : "none",
     "cost"         : 0.75,
-    "hardness"     : 0.0,
+    "hardness"     : 0.00,
     "charge"       : 0.00,
     "radioactivity": 0.05,
     "flammability" : 0.00,
